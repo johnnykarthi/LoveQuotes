@@ -18,8 +18,8 @@ const texts = ['“I wish I knew how to quit you.”',
 '"You make my dreams come true."',
 '"I\'ll follow you into the dark."',
 '"The power you\'re supplying is electrifying."',
-'"I can\'t keep my hands off of you."',
-'"I want to bury my face in your boobs."'];
+'"I can\'t keep my hands off of you."'];
+
 let i = 0;
 btn.addEventListener("click",function(){
     if(i<texts.length)
