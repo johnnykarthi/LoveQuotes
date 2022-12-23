@@ -1,0 +1,36 @@
+body{
+    background-image: url("../img/SE.png");
+    background-size: cover;
+}
+
+.mt-10{
+    margin-top: 10%;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .mt-10{
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .mt-10{
+        margin-top: 50%;
+    }
+    body{
+        background-image: url("../img/bg-1.png");
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 380px) {
+    .mt-10{
+        margin-top: 30%;
+    }
+    body{
+        background-image: url("../img/SE.png");
+        background-size: cover;
+    }
+}
