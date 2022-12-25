@@ -2,7 +2,7 @@ body{
     background-image: url("../img/SE.png");
     background-size: cover;
     background-position : bottom center;
-    
+    height:100vh;
 }
 
 .mt-10{
