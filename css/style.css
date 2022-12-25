@@ -1,6 +1,8 @@
 body{
     background-image: url("../img/SE.png");
     background-size: cover;
+    background-position : bottom center;
+    
 }
 
 .mt-10{
