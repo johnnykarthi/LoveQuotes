@@ -24,6 +24,9 @@ body{
     body{
         background-image: url("../img/bg-1.png");
         background-size: cover;
+        background-position : bottom center;
+
+    height:100vh;
     }
 }
 
@@ -34,5 +37,7 @@ body{
     body{
         background-image: url("../img/SE.png");
         background-size: cover;
+        background-position : bottom center;
+    height:100vh;
     }
 }
