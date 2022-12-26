@@ -12,14 +12,13 @@ let btn = document.querySelector('.btn');
 const texts = ['“I wish I knew how to quit you.”',
 '"My whole life changed the day I met you."',
 '"You\'re my dream girl."',
-'"I love the way you smell."',
+'"If I know what love is, it is because of you."',
 '"You know you\'re the hottest woman in the room right now, right?"',
 '"<em>Baby</em>, you\'re stunning."',
 '"You make my dreams come true."',
 '"I\'ll follow you into the dark."',
 '"The power you\'re supplying is electrifying."',
-'"I can\'t keep my hands off of you."'];
-
+'"Love is like the wind, you can\'t see it but you can feel it."'];
 let i = 0;
 btn.addEventListener("click",function(){
     if(i<texts.length)
@@ -32,3 +31,4 @@ btn.addEventListener("click",function(){
         text.innerHTML = texts[i];
     }
 });
+
